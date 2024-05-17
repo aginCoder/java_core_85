@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="" />
+    <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson02" />
+        <entry key="$PROJECT_DIR$" value="lesson03" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +55,7 @@
     "Application.Program.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lesson03",
+    "git-widget-placeholder": "lesson02",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/VTI/Railway85/Java Core/java_core_85",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
@@ -101,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
         <item itemvalue="Application.IfElseDemo" />
         <item itemvalue="Application.BreakDemo" />
         <item itemvalue="Application.ArithmeticOperatorDemo" />
