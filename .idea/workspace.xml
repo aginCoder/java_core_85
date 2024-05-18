@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="" />
+    <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/CanBo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CongNhan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GioiTinh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/KySu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/NhanVien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Answer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CategoryQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExamQuestion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GroupAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PositionName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Program04.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Question.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TypeName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TypeQuestion.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +37,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,7 +79,7 @@
     "Application.Program.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "#5 on assignment01",
+    "git-widget-placeholder": "assignment06",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/VTI/Railway85/Java Core/java_core_85",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
