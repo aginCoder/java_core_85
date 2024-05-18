@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="" />
+    <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AccessModifierDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/EncapsulationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CastingDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ForEachDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Math.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MethodDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StringMethodDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WrapperClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entity/WrapperClassDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson04" />
+        <entry key="$PROJECT_DIR$" value="lesson05" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,22 +67,15 @@
     "Application.Program.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lesson03",
+    "git-widget-placeholder": "lesson05",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/VTI/Railway85/Java Core/java_core_85",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.IfElseDemo">
-    <configuration name="ArithmeticOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArithmeticOperatorDemo" />
-      <module name="Java_core" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BreakDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BreakDemo" />
+  <component name="RunManager" selected="Application.AccessModifierDemo">
+    <configuration name="AccessModifierDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AccessModifierDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,8 +88,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodDemo" />
+      <module name="Java_core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
+      <module name="Java_core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringMethodDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AccessModifierDemo" />
+        <item itemvalue="Application.StringMethodDemo" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.MethodDemo" />
         <item itemvalue="Application.IfElseDemo" />
-        <item itemvalue="Application.BreakDemo" />
-        <item itemvalue="Application.ArithmeticOperatorDemo" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
