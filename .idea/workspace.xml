@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CategoryQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ExamQuestion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AbstractionDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Bird.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Flyable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GroupAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GroupAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InheritanceDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pet.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PolymorphismDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Runnable.java" beforeDir="false" />
-    </list>
+    <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson06" />
+        <entry key="$PROJECT_DIR$" value="assignment02" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +54,7 @@
     "Application.Program.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "assignment01",
+    "git-widget-placeholder": "#5 on assignment01",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/VTI/Railway85/Java Core/java_core_85",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
