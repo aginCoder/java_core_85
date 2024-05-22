@@ -1,0 +1,362 @@
+Index: src/main/java/ThrowDemo.java
+===================================================================
+diff --git a/src/main/java/ThrowDemo.java b/src/main/java/ThrowDemo.java
+deleted file mode 100644
+--- a/src/main/java/ThrowDemo.java	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ /dev/null	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
+@@ -1,15 +0,0 @@
+-public class ThrowDemo {
+-    public static void main(String[] args) {
+-        try {
+-            var age = 15;
+-            if (age >= 18) {
+-                System.out.println("Bạn đã đủ 18 tuổi");
+-            } else {
+-//            System.out.println("Bạn chưa đủ 18 tuổi");
+-                throw new IllegalStateException("Bạn chưa đủ 18 tuổi");
+-            }
+-        } catch (IllegalStateException exception) {
+-            System.out.println(exception.getMessage());
+-        }
+-    }
+-}
+Index: src/main/java/TryCatchFinallyDemo.java
+===================================================================
+diff --git a/src/main/java/TryCatchFinallyDemo.java b/src/main/java/TryCatchFinallyDemo.java
+deleted file mode 100644
+--- a/src/main/java/TryCatchFinallyDemo.java	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ /dev/null	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
+@@ -1,23 +0,0 @@
+-public class TryCatchFinallyDemo {
+-    public static void main(String[] args) {
+-        try {
+-            var calculator = new Calculator();
+-            var result = calculator.divide(1, 1);
+-            System.out.println("result = " + result);
+-            
+-            String s = null;
+-            int length = s.length();
+-            System.out.println("length = " + length);
+-
+-//            Integer.parseInt("abc");
+-        } catch (ArithmeticException exception) {
+-            System.out.println(" result = vô cùng");
+-        } catch (NullPointerException exception) {
+-            System.out.println(exception.getMessage());
+-        } catch (Exception exception) {
+-            System.out.println(exception.getMessage());
+-        } finally {
+-            System.out.println("Khối finally luôn đc gọi");
+-        }
+-    }
+-}
+Index: src/main/java/InvalidAgeException.java
+===================================================================
+diff --git a/src/main/java/InvalidAgeException.java b/src/main/java/InvalidAgeException.java
+deleted file mode 100644
+--- a/src/main/java/InvalidAgeException.java	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ /dev/null	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
+@@ -1,9 +0,0 @@
+-public class InvalidAgeException extends RuntimeException {
+-    public InvalidAgeException() {
+-        super();
+-    }
+-
+-    public InvalidAgeException(String message) {
+-        super(message);
+-    }
+-}
+Index: src/main/java/OverLoadingDemo.java
+===================================================================
+diff --git a/src/main/java/OverLoadingDemo.java b/src/main/java/OverLoadingDemo.java
+deleted file mode 100644
+--- a/src/main/java/OverLoadingDemo.java	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ /dev/null	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
+@@ -1,8 +0,0 @@
+-public class OverLoadingDemo {
+-    public static void main(String[] args) {
+-        MyMath math =  new MyMath();
+-//        int[] array = {1,1,1,1,1};
+-        int total = math.sum(1,2,3,4,5,6,7);
+-        System.out.println("total = " + total);
+-    }
+-}
+Index: src/main/java/DebugDemo.java
+===================================================================
+diff --git a/src/main/java/DebugDemo.java b/src/main/java/DebugDemo.java
+deleted file mode 100644
+--- a/src/main/java/DebugDemo.java	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ /dev/null	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
+@@ -1,21 +0,0 @@
+-public class DebugDemo {
+-    public static void main(String[] args) {
+-        hole();
+-        int[] numbers = {5, 6, 7, 2, 9, 10, 15};
+-        int max = numbers[0];
+-        for (int number : numbers) {
+-            if (max < number) {
+-                max = number;
+-            }
+-        }
+-        System.out.println("max = " + max);
+-    }
+-
+-    public static void hole() {
+-        System.out.println("Line code");
+-        System.out.println("Line code");
+-        System.out.println("Line code");
+-        System.out.println("Line code");
+-        System.out.println("Line code");
+-    }
+-}
+Index: src/main/java/CustomExceptionDemo.java
+===================================================================
+diff --git a/src/main/java/CustomExceptionDemo.java b/src/main/java/CustomExceptionDemo.java
+deleted file mode 100644
+--- a/src/main/java/CustomExceptionDemo.java	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ /dev/null	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
+@@ -1,14 +0,0 @@
+-public class CustomExceptionDemo {
+-    public static void main(String[] args) {
+-        try {
+-            var age = 15;
+-            if (age >= 18) {
+-                System.out.println("Bạn đã đủ 18 tuổi");
+-            } else {
+-                throw new IllegalStateException("Bạn chưa đủ 18 tuổi");
+-            }
+-        } catch (IllegalStateException exception) {
+-            System.out.println(exception.getMessage());
+-        }
+-    }
+-}
+Index: src/main/java/MyMath.java
+===================================================================
+diff --git a/src/main/java/MyMath.java b/src/main/java/MyMath.java
+deleted file mode 100644
+--- a/src/main/java/MyMath.java	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ /dev/null	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
+@@ -1,25 +0,0 @@
+-public class MyMath {
+-    public int sum(int a, int b) {
+-        return a + b;
+-    }
+-
+-    public int sum(byte a, int b) {
+-        return a + b;
+-    }
+-
+-    public int sum(short a, short b) {
+-        return a + b;
+-    }
+-
+-    public int sum(short a, int b, int c) {
+-        return a + b + c;
+-    }
+-
+-    public int sum(int... numbers) {
+-        int sum = 0;
+-        for (int number : numbers) {
+-            sum += number;
+-        }
+-        return sum;
+-    }
+-}
+Index: src/main/java/Calculator.java
+===================================================================
+diff --git a/src/main/java/Calculator.java b/src/main/java/Calculator.java
+deleted file mode 100644
+--- a/src/main/java/Calculator.java	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ /dev/null	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
+@@ -1,5 +0,0 @@
+-public class Calculator {
+-    public int divide(int a, int b) {
+-        return a / b;
+-    }
+-}
+Index: src/main/java/IOStream.java
+===================================================================
+diff --git a/src/main/java/IOStream.java b/src/main/java/IOStream.java
+deleted file mode 100644
+--- a/src/main/java/IOStream.java	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ /dev/null	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
+@@ -1,7 +0,0 @@
+-import java.io.IOException;
+-
+-public class IOStream {
+-    public void write() throws IOException {
+-        throw new IOException("Tệp không tồn tại");
+-    }
+-}
+Index: src/main/java/ThrowsDemo.java
+===================================================================
+diff --git a/src/main/java/ThrowsDemo.java b/src/main/java/ThrowsDemo.java
+deleted file mode 100644
+--- a/src/main/java/ThrowsDemo.java	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ /dev/null	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
+@@ -1,12 +0,0 @@
+-import java.io.IOException;
+-
+-public class ThrowsDemo {
+-    public static void main(String[] args) {
+-        var stream = new IOStream();
+-        try {
+-            stream.write();
+-        } catch (IOException exception) {
+-            System.out.println(exception.getMessage());
+-        }
+-    }
+-}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"51c1a76f-f06a-4b69-8003-c877e53dc88b\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"assignment08\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;aginCoder&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">{\r\n  &quot;selectedUrlAndAccountId&quot;: {\r\n    &quot;url&quot;: &quot;https://github.com/aginCoder/java_core_85.git&quot;,\r\n    &quot;accountId&quot;: &quot;ff2a2be1-a9a4-4615-ba82-f5a617d3e2f6&quot;\r\n  }\r\n}</component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 3\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2gWgLoftSwDpeorltRmUleQXMCL\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.AccessModifierDemo.executor\": \"Run\",\r\n    \"Application.ArithmeticOperatorDemo.executor\": \"Run\",\r\n    \"Application.BreakDemo.executor\": \"Run\",\r\n    \"Application.CustomExceptionDemo.executor\": \"Run\",\r\n    \"Application.IfElseDemo.executor\": \"Run\",\r\n    \"Application.Program.executor\": \"Run\",\r\n    \"Application.ThrowDemo.executor\": \"Run\",\r\n    \"Application.ThrowsDemo.executor\": \"Run\",\r\n    \"Application.TryCatchFinallyDemo.executor\": \"Run\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"lesson08\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"last_opened_file_path\": \"D:/VTI/Railway85/Java Core/java_core_85\",\r\n    \"settings.editor.selected.configurable\": \"reference.settings.project.maven.importing\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Application.CustomExceptionDemo\">\r\n    <configuration name=\"BreakDemo\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"BreakDemo\" />\r\n      <module name=\"Java_core\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"CustomExceptionDemo\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"CustomExceptionDemo\" />\r\n      <module name=\"Java_core\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"IfElseDemo\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"IfElseDemo\" />\r\n      <module name=\"Java_core\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Program\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Program\" />\r\n      <module name=\"Java_core\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"StringMethodDemo\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"StringMethodDemo\" />\r\n      <module name=\"Java_core\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"JetRunConfigurationType\">\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"KotlinStandaloneScriptRunConfigurationType\">\r\n      <option name=\"filePath\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.CustomExceptionDemo\" />\r\n        <item itemvalue=\"Application.StringMethodDemo\" />\r\n        <item itemvalue=\"Application.Program\" />\r\n        <item itemvalue=\"Application.IfElseDemo\" />\r\n        <item itemvalue=\"Application.BreakDemo\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"51c1a76f-f06a-4b69-8003-c877e53dc88b\" name=\"Changes\" comment=\"\" />\r\n      <created>1715818694856</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1715818694856</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d49c3acd2fb070021aa29277941f901a0584dfce)
++++ b/.idea/workspace.xml	(date 1716380240792)
+@@ -5,7 +5,21 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/Dog.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/FinalDemo.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/CustomExceptionDemo.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/DebugDemo.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/IOStream.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/InvalidAgeException.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/MyMath.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/OverLoadingDemo.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/ThrowDemo.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/ThrowsDemo.java" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/TryCatchFinallyDemo.java" beforeDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -54,6 +68,7 @@
+     "Application.ArithmeticOperatorDemo.executor": "Run",
+     "Application.BreakDemo.executor": "Run",
+     "Application.CustomExceptionDemo.executor": "Run",
++    "Application.FinalDemo.executor": "Run",
+     "Application.IfElseDemo.executor": "Run",
+     "Application.Program.executor": "Run",
+     "Application.ThrowDemo.executor": "Run",
+@@ -61,22 +76,22 @@
+     "Application.TryCatchFinallyDemo.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "lesson08",
++    "git-widget-placeholder": "lesson09",
+     "kotlin-language-version-configured": "true",
+     "last_opened_file_path": "D:/VTI/Railway85/Java Core/java_core_85",
+     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+   }
+ }]]></component>
+-  <component name="RunManager" selected="Application.CustomExceptionDemo">
+-    <configuration name="BreakDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="BreakDemo" />
++  <component name="RunManager" selected="Application.FinalDemo">
++    <configuration name="CustomExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="CustomExceptionDemo" />
+       <module name="Java_core" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="CustomExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="CustomExceptionDemo" />
++    <configuration name="FinalDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="FinalDemo" />
+       <module name="Java_core" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -116,11 +131,11 @@
+     </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.FinalDemo" />
+         <item itemvalue="Application.CustomExceptionDemo" />
+         <item itemvalue="Application.StringMethodDemo" />
+         <item itemvalue="Application.Program" />
+         <item itemvalue="Application.IfElseDemo" />
+-        <item itemvalue="Application.BreakDemo" />
+       </list>
+     </recent_temporary>
+   </component>
+Index: src/main/java/Student.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Student.java b/src/main/java/Student.java
+new file mode 100644
+--- /dev/null	(date 1716380240631)
++++ b/src/main/java/Student.java	(date 1716380240631)
+@@ -0,0 +1,3 @@
++//public class Student {
++//    private final String name = 5;
++//}
+Index: src/main/java/FinalDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/FinalDemo.java b/src/main/java/FinalDemo.java
+new file mode 100644
+--- /dev/null	(date 1716380693396)
++++ b/src/main/java/FinalDemo.java	(date 1716380693396)
+@@ -0,0 +1,16 @@
++public class FinalDemo {
++    public static void main(String[] args) {
++        // Biến final (final variable, final property)
++        //Tạo hằng số (constant)
++        final double PI = 3.14159;
++
++        // Phương thức final (final method)
++        // Lớp con không thể ghi đè một phương thức được đánh dấu là final (final method) của lớp cha
++        Dog dog = new Dog();
++        dog.eat();
++
++        // final class
++        // Đánh dấu class đó sẽ không có class con
++
++    }
++}
+Index: src/main/java/Dog.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Dog.java b/src/main/java/Dog.java
+new file mode 100644
+--- /dev/null	(date 1716380499865)
++++ b/src/main/java/Dog.java	(date 1716380499865)
+@@ -0,0 +1,6 @@
++public class Dog extends Animal{
++//    @Override
++//    public void eat() {
++//        System.out.println(" Dog is eating... ");
++//    }
++}
+Index: src/main/java/Animal.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Animal.java b/src/main/java/Animal.java
+new file mode 100644
+--- /dev/null	(date 1716380693391)
++++ b/src/main/java/Animal.java	(date 1716380693391)
+@@ -0,0 +1,6 @@
++public class Animal {
++//public final class Animal {
++    public final void eat() {
++        System.out.println(" Animal is eating... ");
++    }
++}

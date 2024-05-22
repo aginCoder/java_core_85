@@ -1,0 +1,84 @@
+Index: src/main/java/DebugDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/DebugDemo.java b/src/main/java/DebugDemo.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/DebugDemo.java	
+@@ -0,0 +1,21 @@
++public class DebugDemo {
++    public static void main(String[] args) {
++        hole();
++        int[] numbers = {5, 6, 7, 2, 9, 10, 15};
++        int max = numbers[0];
++        for (int number : numbers) {
++            if (max < number) {
++                max = number;
++            }
++        }
++        System.out.println("max = " + max);
++    }
++
++    public static void hole() {
++        System.out.println("Line code");
++        System.out.println("Line code");
++        System.out.println("Line code");
++        System.out.println("Line code");
++        System.out.println("Line code");
++    }
++}
+Index: src/main/java/OverLoadingDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/OverLoadingDemo.java b/src/main/java/OverLoadingDemo.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/OverLoadingDemo.java	
+@@ -0,0 +1,8 @@
++public class OverLoadingDemo {
++    public static void main(String[] args) {
++        MyMath math =  new MyMath();
++//        int[] array = {1,1,1,1,1};
++        int total = math.sum(1,2,3,4,5,6,7);
++        System.out.println("total = " + total);
++    }
++}
+Index: src/main/java/MyMath.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/MyMath.java b/src/main/java/MyMath.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/MyMath.java	
+@@ -0,0 +1,25 @@
++public class MyMath {
++    public int sum(int a, int b) {
++        return a + b;
++    }
++
++    public int sum(byte a, int b) {
++        return a + b;
++    }
++
++    public int sum(short a, short b) {
++        return a + b;
++    }
++
++    public int sum(short a, int b, int c) {
++        return a + b + c;
++    }
++
++    public int sum(int... numbers) {
++        int sum = 0;
++        for (int number : numbers) {
++            sum += number;
++        }
++        return sum;
++    }
++}
