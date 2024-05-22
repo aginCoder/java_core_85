@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FinalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/StaticDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CustomExceptionDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DebugDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IOStream.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/InvalidAgeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyMath.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OverLoadingDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThrowDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThrowsDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TryCatchFinallyDemo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,31 +49,36 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2gWgLoftSwDpeorltRmUleQXMCL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AccessModifierDemo.executor": "Run",
     "Application.ArithmeticOperatorDemo.executor": "Run",
     "Application.BreakDemo.executor": "Run",
     "Application.IfElseDemo.executor": "Run",
     "Application.Program.executor": "Run",
+    "Application.StaticDemo.executor": "Run",
     "Application.ThrowDemo.executor": "Run",
     "Application.ThrowsDemo.executor": "Run",
     "Application.TryCatchFinallyDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lesson08",
+    "git-widget-placeholder": "lesson09",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/VTI/Railway85/Java Core/java_core_85",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThrowsDemo">
-    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Program" />
+  <component name="RunManager" selected="Application.StaticDemo">
+    <configuration name="StaticDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StaticDemo" />
         <item itemvalue="Application.TryCatchFinallyDemo" />
         <item itemvalue="Application.ThrowsDemo" />
         <item itemvalue="Application.ThrowDemo" />
         <item itemvalue="Application.StringMethodDemo" />
-        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +154,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
