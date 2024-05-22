@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/FinalDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StaticDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hs_err_pid10720.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/abc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,7 @@
     "Application.AccessModifierDemo.executor": "Run",
     "Application.ArithmeticOperatorDemo.executor": "Run",
     "Application.BreakDemo.executor": "Run",
+    "Application.FileDemo.executor": "Run",
     "Application.IfElseDemo.executor": "Run",
     "Application.Program.executor": "Run",
     "Application.StaticDemo.executor": "Run",
@@ -76,16 +76,16 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.StaticDemo">
-    <configuration name="StaticDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticDemo" />
+  <component name="RunManager" selected="Application.FileDemo">
+    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringMethodDemo" />
+    <configuration name="StaticDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -125,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileDemo" />
         <item itemvalue="Application.StaticDemo" />
         <item itemvalue="Application.TryCatchFinallyDemo" />
         <item itemvalue="Application.ThrowsDemo" />
         <item itemvalue="Application.ThrowDemo" />
-        <item itemvalue="Application.StringMethodDemo" />
       </list>
     </recent_temporary>
   </component>
