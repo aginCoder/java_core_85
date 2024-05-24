@@ -1,5 +1,7 @@
 package backend;
 
+import entity.PrimarySchool;
+import entity.SecondarySchool;
 import entity.Student;
 
 public class Exercise01 {
@@ -58,4 +60,15 @@ public class Exercise01 {
         System.out.println("Số lượng sinh viên: " + Student.count);
     }
 
+    public static void question06() {
+        Student s1  = new PrimarySchool("A");
+        Student s2  = new PrimarySchool("B");
+        Student s3  = new SecondarySchool("C");
+        Student s4  = new SecondarySchool("D");
+        Student s5  = new SecondarySchool("E");
+        Student s6  = new SecondarySchool("F");
+        System.out.println("Số lượng student = " + Student.count);
+        System.out.println("Số lượng Primary student = " + PrimarySchool.count);
+        System.out.println("Số lượng Secondary student = " + SecondarySchool.count);
+    }
 }
