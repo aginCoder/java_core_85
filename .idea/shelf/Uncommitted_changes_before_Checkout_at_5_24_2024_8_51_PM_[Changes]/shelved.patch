@@ -1,0 +1,12 @@
+Index: src/main/java/ListDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package PACKAGE_NAME;public class ListDemo {\r\n}\r\n
+===================================================================
+diff --git a/src/main/java/ListDemo.java b/src/main/java/ListDemo.java
+--- a/src/main/java/ListDemo.java	
++++ b/src/main/java/ListDemo.java	
+@@ -1,2 +1,2 @@
+-package PACKAGE_NAME;public class ListDemo {
++public class ListDemo {
+ }
