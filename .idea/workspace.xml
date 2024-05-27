@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/QueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/backend/Exercise01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/frontend/Program01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ListDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="assignment09" />
+        <entry key="$PROJECT_DIR$" value="assignment10" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,6 +63,7 @@
     "Application.IfElseDemo.executor": "Run",
     "Application.ListDemo.executor": "Run",
     "Application.Program.executor": "Run",
+    "Application.Program01.executor": "Run",
     "Application.QueueDemo.executor": "Run",
     "Application.StackDemo.executor": "Run",
     "Application.StaticDemo.executor": "Run",
@@ -85,23 +86,29 @@
       <recent name="entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueDemo">
-    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListDemo" />
+  <component name="RunManager" selected="Application.Program">
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="frontend.Program" />
+      <module name="Java_core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="frontend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringMethodDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueueDemo" />
-      <module name="Java_core" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackDemo" />
+    <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThrowDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QueueDemo" />
-        <item itemvalue="Application.StackDemo" />
-        <item itemvalue="Application.ListDemo" />
         <item itemvalue="Application.TryCatchFinallyDemo" />
         <item itemvalue="Application.ThrowsDemo" />
+        <item itemvalue="Application.ThrowDemo" />
+        <item itemvalue="Application.StringMethodDemo" />
+        <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
   </component>
