@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="" />
+    <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GenericDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenericDemo.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,29 +52,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AccessModifierDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArithmeticOperatorDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BreakDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.IfElseDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;Application.QueueDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StackDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThrowDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThrowsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TryCatchFinallyDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lesson10&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/VTI/Railway85/Java Core/java_core_85&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AccessModifierDemo.executor": "Run",
+    "Application.ArithmeticOperatorDemo.executor": "Run",
+    "Application.BreakDemo.executor": "Run",
+    "Application.GenericDemo.executor": "Run",
+    "Application.IfElseDemo.executor": "Run",
+    "Application.ListDemo.executor": "Run",
+    "Application.Program.executor": "Run",
+    "Application.QueueDemo.executor": "Run",
+    "Application.StackDemo.executor": "Run",
+    "Application.StaticDemo.executor": "Run",
+    "Application.ThrowDemo.executor": "Run",
+    "Application.ThrowsDemo.executor": "Run",
+    "Application.TryCatchFinallyDemo.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "lesson10",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/VTI/Railway85/Java Core/java_core_85",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -80,7 +84,14 @@
       <recent name="entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueDemo">
+  <component name="RunManager" selected="Application.GenericDemo">
+    <configuration name="GenericDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericDemo" />
+      <module name="Java_core" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ListDemo" />
       <module name="Java_core" />
@@ -97,13 +108,6 @@
     </configuration>
     <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StackDemo" />
-      <module name="Java_core" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThrowsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThrowsDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericDemo" />
         <item itemvalue="Application.QueueDemo" />
         <item itemvalue="Application.StackDemo" />
         <item itemvalue="Application.ListDemo" />
         <item itemvalue="Application.TryCatchFinallyDemo" />
-        <item itemvalue="Application.ThrowsDemo" />
       </list>
     </recent_temporary>
   </component>
