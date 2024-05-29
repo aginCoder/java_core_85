@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/GarbageCollectorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/I18NDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/InnerClassDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/GenericDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GenericDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="assignment09" />
+        <entry key="$PROJECT_DIR$" value="lesson10" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,10 +62,14 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.AccessModifierDemo.executor": "Run",
+    "Application.AnnotationDemo.executor": "Run",
     "Application.ArithmeticOperatorDemo.executor": "Run",
     "Application.BreakDemo.executor": "Run",
+    "Application.GarbageCollectorDemo.executor": "Run",
     "Application.GenericDemo.executor": "Run",
+    "Application.I18NDemo.executor": "Run",
     "Application.IfElseDemo.executor": "Run",
+    "Application.InnerClassDemo.executor": "Run",
     "Application.ListDemo.executor": "Run",
     "Application.Program.executor": "Run",
     "Application.QueueDemo.executor": "Run",
@@ -70,7 +80,7 @@
     "Application.TryCatchFinallyDemo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "lesson10",
+    "git-widget-placeholder": "lesson12",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/VTI/Railway85/Java Core/java_core_85",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
@@ -84,30 +94,30 @@
       <recent name="entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericDemo">
-    <configuration name="GenericDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericDemo" />
+  <component name="RunManager" selected="Application.AnnotationDemo">
+    <configuration name="AnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnnotationDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ListDemo" />
+    <configuration name="GarbageCollectorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GarbageCollectorDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueueDemo" />
+    <configuration name="I18NDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="I18NDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackDemo" />
+    <configuration name="InnerClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InnerClassDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,10 +143,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericDemo" />
-        <item itemvalue="Application.QueueDemo" />
-        <item itemvalue="Application.StackDemo" />
-        <item itemvalue="Application.ListDemo" />
+        <item itemvalue="Application.AnnotationDemo" />
+        <item itemvalue="Application.I18NDemo" />
+        <item itemvalue="Application.GarbageCollectorDemo" />
+        <item itemvalue="Application.InnerClassDemo" />
         <item itemvalue="Application.TryCatchFinallyDemo" />
       </list>
     </recent_temporary>
