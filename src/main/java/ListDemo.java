@@ -4,19 +4,18 @@ import java.util.List;
 
 public class ListDemo {
     public static void main(String[] args) {
-//        List<String> list = new ArrayList<>();
+        // List<String> list = new ArrayList<>();
         List<String> list = new LinkedList<>();
 
-        // Thêm phần tử vào cuối
+        // Thêm vào cuối
         list.add("Con bò");
         list.add("Con trâu");
-        list.add("Con hổ");
 
-        // Thêm vào vị trị bất kì
+        // Thêm vào vị trí bất kì
         list.add(1, "Con mèo");
 
         // Kích thước
-        System.out.println(list.size());
+        System.out.println("list.size() = " + list.size());
 
         // Kiểm tra rỗng
         System.out.println("list.isEmpty() = " + list.isEmpty());
@@ -36,14 +35,12 @@ public class ListDemo {
         // Xóa theo đối tượng
         list.remove("Con bò");
 
-        // Xóa toàn bộ
-        list.clear();
-
         // Xóa theo điều kiện
         list.removeIf(animal -> animal.length() > 5);
 
-        //in ra
-        System.out.println(list);
+        // Xóa toàn bộ
+        list.clear();
 
+        System.out.println(list);
     }
 }
