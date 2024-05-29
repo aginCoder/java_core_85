@@ -1,17 +1,17 @@
 public class StaticDemo {
     public static void main(String[] args) {
-        // static: thuộc về class
-        Student s1 = new Student("Ân", 19);
-        Student s2 = new Student("Quân", 20);
+        // Static: Thuộc về class
+        Student s1 = new Student("Khoa", 20);
+        Student s2 = new Student("Hùng", 15);
         s1.count = 10;
         System.out.println("s2.count = " + s2.count);
 
-        // Truy cập thông qua tên của class
+        // Truy cập thông qua tên class
         System.out.println("Student.count = " + Student.count);
         int max = Student.max(10, 100);
         System.out.println("max = " + max);
 
         // Static không thể truy cập non-static
-        // Non-sttaic có thể truy cập static
+        // Non-static có thể truy cập static
     }
 }

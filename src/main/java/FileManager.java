@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class FileManager {
-    //Kiểm tra file tồn tại hay không?
+    // Kiểm tra file có tồn tại hay không
     public static boolean exists(String path) {
         File file = new File(path);
         return file.exists();
@@ -11,7 +11,7 @@ public class FileManager {
     // Tạo mới file
     public static boolean createFile(String path) throws IOException {
         if (exists(path)) {
-            throw new IllegalStateException("Error! File Exist");
+            throw new IllegalStateException("Error! File Exist.");
         }
         File file = new File(path);
         return file.createNewFile();
@@ -19,8 +19,8 @@ public class FileManager {
 
     // Xóa file
     public static boolean delete(String path) {
-        if (!exists(path)){
-            throw new IllegalStateException("Error! File Not Exist");
+        if (!exists(path)) {
+            throw new IllegalStateException("Error! File Not Exist.");
         }
         File file = new File(path);
         return file.delete();
@@ -47,6 +47,6 @@ public class FileManager {
     // Tạo folder
     public static boolean mkdirs(String path) {
         File file = new File(path);
-        return file.mkdirs();    // make directories
+        return file.mkdirs(); // make directories
     }
 }

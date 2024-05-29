@@ -1,0 +1,47 @@
+Index: src/main/java/MapDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/MapDemo.java b/src/main/java/MapDemo.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/MapDemo.java	
+@@ -0,0 +1,5 @@
++public class MapDemo {
++    public static void main(String[] args) {
++        
++    }
++}
+Index: src/main/java/SetDemo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/SetDemo.java b/src/main/java/SetDemo.java
+new file mode 100644
+--- /dev/null	
++++ b/src/main/java/SetDemo.java	
+@@ -0,0 +1,22 @@
++import org.w3c.dom.ls.LSOutput;
++
++import java.util.HashSet;
++import java.util.Set;
++
++public class SetDemo {
++    public static void main(String[] args) {
++        Set<Integer> set = new HashSet<>();
++
++        set.add(1);
++        set.add(1);
++        set.add(6);
++        set.add(2);
++        set.add(4);
++        System.out.println(set);
++
++        Set<Dog> dog = new HashSet<>();
++        dog.add(new Dog("Shiba"));
++        dog.add(new Dog("Shiba"));
++        dog.add(new Dog("Shiba"));
++    }
++}

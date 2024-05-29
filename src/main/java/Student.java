@@ -6,7 +6,7 @@ public class Student {
 
     public Student(String name, int age) {
         this.name = name;
-        this.age =age;
+        this.age = age;
     }
 
     public static int max(int a, int b) {

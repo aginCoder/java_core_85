@@ -70,7 +70,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FileDemo">
+  <component name="RunManager" selected="Application.IOStreamDemo">
     <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileDemo" />
       <module name="Java_core" />
@@ -78,15 +78,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StaticDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticDemo" />
+    <configuration name="IOStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IOStreamDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ThrowDemo" />
+    <configuration name="StaticDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticDemo" />
       <module name="Java_core" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IOStreamDemo" />
         <item itemvalue="Application.FileDemo" />
         <item itemvalue="Application.StaticDemo" />
         <item itemvalue="Application.TryCatchFinallyDemo" />
         <item itemvalue="Application.ThrowsDemo" />
-        <item itemvalue="Application.ThrowDemo" />
       </list>
     </recent_temporary>
   </component>
