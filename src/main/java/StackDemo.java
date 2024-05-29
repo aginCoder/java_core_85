@@ -3,7 +3,7 @@ import java.util.Stack;
 public class StackDemo {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
-        
+
         // Thêm phần tử vào đỉnh
         stack.push(2);
         stack.push(8);
@@ -11,14 +11,14 @@ public class StackDemo {
         stack.push(5);
 
         System.out.println(stack);
-        
+
         // Xem phần tử ở đỉnh
         int peek = stack.peek();
         System.out.println("peek = " + peek);
 
         System.out.println(stack);
-        
-        // Lấy phần ở đỉnh
+
+        // Lấy phần tử ở đỉnh
         int pop = stack.pop();
         System.out.println("pop = " + pop);
 

@@ -4,14 +4,15 @@ import java.util.Queue;
 
 public class QueueDemo {
     public static void main(String[] args) {
-//        Queue<Integer> queue = new ArrayDeque<>();
+        // Queue<Integer> queue = new ArrayDeque<>();
         Queue<Integer> queue = new LinkedList<>();
 
-        // Thêm pần tử vào cuối hàng đợi
+        // Thêm phần tử vào cuối hàng đợi
         queue.offer(2);
         queue.offer(8);
         queue.offer(3);
         queue.offer(5);
+
         System.out.println(queue);
 
         // Xem phần tử ở đầu hàng đợi

@@ -1,7 +1,5 @@
 package entity;
 
-import java.util.SplittableRandom;
-
 public class Student {
     private int id;
     private String name;
@@ -30,13 +28,12 @@ public class Student {
         if (this == obj) return true;
         if (!(obj instanceof Student)) return false;
         Student that = (Student) obj;
-        return this.id == that.id
-                && this.name.equals(that.name);
+        return this.name.equals(that.name);
     }
 
     @Override
     public int hashCode() {
-        return id + name.hashCode();
+        return name.hashCode();
     }
 
     @Override
