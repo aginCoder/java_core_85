@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AnnotationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/GarbageCollectorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/I18NDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/InnerClassDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_22_2024_7_25_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_22_2024_7_25_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_22_2024_7_25_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_22_2024_7_25_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_22_2024_7_31_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_22_2024_7_31_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "lesson12",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/VTI/Railway85/Java Core/java_core_85",
+    "last_opened_file_path": "D:/VTI/Railway85/Java Core",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
