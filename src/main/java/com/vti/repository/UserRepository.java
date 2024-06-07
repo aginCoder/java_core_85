@@ -3,12 +3,13 @@ package com.vti.repository;
 import com.vti.entity.User;
 import com.vti.util.JdbcUtil;
 
+import java.io.IOException;
 import java.sql.*;
 import java.util.LinkedList;
 import java.util.List;
 
 public class UserRepository {
-    public List<User> findAll() throws SQLException {
+    public List<User> findAll() throws SQLException, IOException {
         String sql = "SELECT * FROM users";
         try (
                 Connection connection = JdbcUtil.getConnection();
@@ -32,7 +33,7 @@ public class UserRepository {
         }
     }
 
-    public User findById(int id) throws SQLException {
+    public User findById(int id) throws SQLException, IOException {
         String sql = "SELECT * FROM users WHERE id = ?";
         try (
                 Connection connection = JdbcUtil.getConnection();
@@ -57,7 +58,7 @@ public class UserRepository {
         }
     }
 
-    public User findByEmailAndPassword(String email, String password) throws SQLException {
+    public User findByEmailAndPassword(String email, String password) throws SQLException, IOException {
         String sql = "{CALL find_by_email_and_password(?, ?)}";
         try (
                 Connection connection = JdbcUtil.getConnection();
@@ -83,7 +84,7 @@ public class UserRepository {
         }
     }
 
-    public int create(String fullName, String email) throws SQLException {
+    public int create(String fullName, String email) throws SQLException, IOException {
         String sql = "INSERT INTO users (full_name, email) VALUES (?, ?)";
         try (
                 Connection connection = JdbcUtil.getConnection();
@@ -95,7 +96,7 @@ public class UserRepository {
         }
     }
 
-    public int deleteById(int id) throws SQLException {
+    public int deleteById(int id) throws SQLException, IOException {
         String sql = "DELETE FROM users WHERE id = ?";
         try(
                 Connection connection = JdbcUtil.getConnection();

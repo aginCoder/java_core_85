@@ -5,6 +5,7 @@ import com.vti.repository.UserRepository;
 import com.vti.util.ScannerUtil;
 import lombok.AllArgsConstructor;
 
+import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
@@ -12,7 +13,31 @@ import java.util.List;
 public class UserFunction {
     private UserRepository repository;
 
-    public void showAdminMenu() throws SQLException {
+    public void showMenu() throws SQLException, IOException {
+        while (true) {
+            System.out.println("1. Đăng nhập");
+            System.out.println("2. Hiển thị danh sách user");
+            System.out.println("3. Tìm kiếm user theo id");
+            System.out.println("4. Thoát chương trình");
+            System.out.println("Mời bạn chọn chức năng");
+            int menu = ScannerUtil.inputInt();
+
+            if (menu == 1) {
+                findByEmailAndPassword();
+            } else if (menu == 2) {
+                findAll();
+            } else if (menu == 3) {
+                findById();
+            } else if (menu == 4) {
+                return;
+            } else {
+                System.err.println("Vui lòng chọn đúng chức năng");
+                System.err.println("Nhập lại");
+            }
+        }
+    }
+
+    private void showAdminMenu() throws SQLException, IOException {
         while (true) {
             System.out.println("1. hiển thị danh sách user");
             System.out.println("2. tìm kiếm user theo id");
@@ -39,8 +64,29 @@ public class UserFunction {
         }
     }
 
+    private void showEmployeeMenu() throws SQLException, IOException {
+        while (true) {
+            System.out.println("1. hiển thị danh sách user");
+            System.out.println("2. tìm kiếm user theo id");
+            System.out.println("3. đăng xuất");
+            System.out.println("Mời bạn chọn chức năng");
+            int menu = ScannerUtil.inputInt();
 
-    private void findAll() throws SQLException {
+            if (menu == 1) {
+                findAll();
+            } else if (menu == 2) {
+                findById();
+            } else if (menu == 3) {
+                return;
+            } else {
+                System.err.println("Vui lòng chọn đúng chức năng");
+                System.err.println("Nhập lại");
+            }
+        }
+    }
+
+
+    private void findAll() throws SQLException, IOException {
         List<User> users = repository.findAll();
         System.out.println("Danh sách users:");
         System.out.println("+------+--------------------+--------------------+");
@@ -60,7 +106,7 @@ public class UserFunction {
         }
     }
 
-    private void findById() throws SQLException {
+    private void findById() throws SQLException, IOException {
         System.out.println("Nhập vào id cần tìm:");
         int id = ScannerUtil.inputInt();
         User user = repository.findById(id);
@@ -78,7 +124,7 @@ public class UserFunction {
         }
     }
 
-    private void findByEmailAndPassword() throws SQLException {
+    private void findByEmailAndPassword() throws SQLException, IOException {
         System.out.println("Mời nhập vào thông tin đăng nhập");
         System.out.println("Nập vào email: ");
         String email = ScannerUtil.inputEmail();
@@ -90,10 +136,15 @@ public class UserFunction {
         } else {
             User.Role role = user.getRole();
             System.out.printf("Đăng nhập thành công: %s - %s.%n", user.getFullName(), role);
+            if (role == User.Role.ADMIN) {
+                showAdminMenu();
+            } else if (role== User.Role.EMPLOYEE) {
+                showEmployeeMenu();
+            }
         }
     }
 
-    private void create() throws SQLException {
+    private void create() throws SQLException, IOException {
         System.out.println("Thêm người mới: ");
         System.out.println("Mời nhập vào full name");
         String fullName = ScannerUtil.inputFullName();
@@ -103,7 +154,7 @@ public class UserFunction {
         System.out.printf("Đã thêm thành công %d user(s).%n", result);
     }
 
-    private void deleteById() throws SQLException {
+    private void deleteById() throws SQLException, IOException {
         System.out.println(" Nhập vào id cần xóa: ");
         int id = ScannerUtil.inputInt();
         int result = repository.deleteById(id);     // Hiển thị số người xóa
