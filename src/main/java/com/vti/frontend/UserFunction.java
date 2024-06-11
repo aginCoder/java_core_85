@@ -1,7 +1,7 @@
 package com.vti.frontend;
 
+import com.vti.controller.UserController;
 import com.vti.entity.User;
-import com.vti.repository.UserRepository;
 import com.vti.util.ScannerUtil;
 import lombok.AllArgsConstructor;
 
@@ -11,7 +11,7 @@ import java.util.List;
 
 @AllArgsConstructor
 public class UserFunction {
-    private UserRepository repository;
+    private UserController controller;
 
     public void showMenu() throws SQLException, IOException {
         while (true) {
@@ -87,7 +87,7 @@ public class UserFunction {
 
 
     private void findAll() throws SQLException, IOException {
-        List<User> users = repository.findAll();
+        List<User> users = controller.findAll();
         System.out.println("Danh sách users:");
         System.out.println("+------+--------------------+--------------------+");
         System.out.println("|  ID  |     FULL NAME      |       EMAIL        |");
@@ -109,7 +109,7 @@ public class UserFunction {
     private void findById() throws SQLException, IOException {
         System.out.println("Nhập vào id cần tìm:");
         int id = ScannerUtil.inputInt();
-        User user = repository.findById(id);
+        User user = controller.findById(id);
         System.out.println("+------+--------------------+--------------------+");
         System.out.println("|  ID  |     FULL NAME      |       EMAIL        |");
         System.out.println("+------+--------------------+--------------------+");
@@ -130,7 +130,7 @@ public class UserFunction {
         String email = ScannerUtil.inputEmail();
         System.out.println("Nhập vào password: ");
         String password = ScannerUtil.inputPassword();
-        User user = repository.findByEmailAndPassword(email, password);
+        User user = controller.findByEmailAndPassword(email, password);
         if (user == null) {
             System.out.println("Đăng nhập thất bại");
         } else {
@@ -150,14 +150,15 @@ public class UserFunction {
         String fullName = ScannerUtil.inputFullName();
         System.out.println("Mời nhập vào email");
         String email = ScannerUtil.inputEmail();
-        int result = repository.create(fullName, email);
+        int result = controller.create(fullName, email);
         System.out.printf("Đã thêm thành công %d user(s).%n", result);
     }
 
     private void deleteById() throws SQLException, IOException {
         System.out.println(" Nhập vào id cần xóa: ");
         int id = ScannerUtil.inputInt();
-        int result = repository.deleteById(id);     // Hiển thị số người xóa
+        int result = controller.deleteById(id);     // Hiển thị số người xóa
         System.out.printf("Đã xóa thành công %d user(s).%n", result);
     }
+
 }
