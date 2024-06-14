@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51c1a76f-f06a-4b69-8003-c877e53dc88b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vti/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vti/repository/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vti/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/vti/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vti/frontend/UserFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vti/frontend/UserFunction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vti/frontend/UserProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vti/frontend/UserProgram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vti/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vti/repository/UserRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
